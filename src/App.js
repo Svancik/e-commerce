@@ -9,6 +9,7 @@ import { Products } from "./pages/Products/Products";
 import { Product } from './pages/Product/Product';
 import { Navbar } from "./components/navbar/Navbar";
 import { Footer } from "./components/footer/Footer";
+import "./app.scss";
 
 const Layout = () => {
   return (
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path:"/products:id",
+        path:"/products/:id",
         element: <Products/>
       },
       {
@@ -44,7 +45,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <RouterProvider router = {router} />
     </div>
   );
