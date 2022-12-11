@@ -54,5 +54,12 @@ h2{
     h3{
         font-size: 18px;
         font-weight: 500;
+
+        //tímto se přeškrtne stará cena
+        &:first-child{
+            color: gray;
+            text-decoration: line-through;
+        }
+
     }
 }
