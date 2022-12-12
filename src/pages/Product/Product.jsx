@@ -6,6 +6,7 @@ import BalanceIcon from "@mui/icons-material/Balance";
 import "./product.scss";
 import { FavoriteBorderOutlinedIcon } from "@mui/icons-material/FavoriteBorderOutlined";
 
+
 export const Product = () => {
   const [slectedImg, setSelectedImg] = useState(0);
   const [quantity, setQuantity] = useState(0);
