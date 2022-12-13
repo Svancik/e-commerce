@@ -10,7 +10,7 @@ import "./navbar.scss";
 import { Cart } from "../cart/Cart";
 
 export const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="navbar">
