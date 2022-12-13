@@ -26,7 +26,6 @@ export const Card = ({ item }) => {
             alt=""
             className="secondImg"
           />
-          )}
         </div>
       </div>
       <h2>{item?.attributes.title}</h2>
